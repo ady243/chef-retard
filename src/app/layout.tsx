@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <meta charSet="utf-8" />
-      <meta name="viewport" content="chef en retard" />
+      <meta name="viewport" content="Je suis en retard, je souhaite obtenir une liste de références de restaurants pour passer une commande de repas." />
       <body className={inter.className}>{children}</body>
     </html>
   )
