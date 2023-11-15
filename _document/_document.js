@@ -6,7 +6,8 @@ class MyDocument extends Document {
       <Html>
         <Head>
           <meta name="description" content="Je suis en retard, je souhaite obtenir une liste de références de restaurants pour passer une commande de repas."/>
-          <meta name="keywords" content="Je suis en retard, je souhaite obtenir une liste de références de restaurants pour passer une commande de repas." />
+          <meta name="keywords" content="chef retard" />
+          <title>Chef-retard</title>
         </Head>
         <body>
           <Main />
