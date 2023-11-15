@@ -49,7 +49,7 @@ function CardBuilder({ titre, description, image, prix }) {
         <div style={cardStyle.filmStrip}></div>
         <p className="text-gray-600">{description}</p>
         <p className="text-black text-center font-bold">{prix}</p>
-        <button style={cardStyle.boutton}>J'en veux</button>
+        <button style={cardStyle.boutton}>Oui</button>
       </div>
     </div>
   );
