@@ -1,59 +1,22 @@
-import CarteBuilder from '../components/CarteBuilder';
-
-
-
 export default function Home() {
-  const dataCarte = [
-    {
-      titre: 'Sandwich',
-      description: 'ton et pain',
-      image: '/chemin/vers/mon-image-1.jpg',
-      prix:"22€"
-    },
-    {
-      titre: 'Patte',
-      description: 'Patte bolognaise',
-      image: '/jdj',
-      prix:"11€"
-    },
-    {
-      titre: 'Poisson',
-      description: 'Posson et frites',
-      image: '/jdj',
-      prix:"10€",
-    },
-    {
-      titre: 'Poulet',
-      description: 'Description de la carte ',
-      image: '/jdj',
-      prix:"23€"
-    },
-
-  ];
-
-  const styleCard = {
-    width:"130%",
-    position:"relative",
-    textAlign:"center",
-    justifyContent:"center"
-  }
 
   return (
     <>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2"> 
-        {dataCarte.map((carte, index) => (
-          <div key={index}>
-            <CarteBuilder
-              titre={carte.titre}
-              description={carte.description}
-              image={carte.image}
-              prix={carte.prix}
-            />
-          </div>
-        ))}
+      <div className="min-h-screen bg-gray-900 flex flex-col items-center justify-center">
+      <h1>Commandez rapidement avec les références fast-food</h1>
+        <h1 className="text-5xl text-white font-bold mb-8 animate-pulse">
+          Bientôt
+        </h1>
+        <p className="text-white text-xl mb-8">
+          "Nous mettons tout en œuvre pour vous offrir une expérience exceptionnelle. Restez connectés !"
+        </p>
+
+        <div>
+          <p>
+            &copy; 2023 VotreNom. Tous droits réservés.
+          </p>
+        </div>
       </div>
-    
     </>
   );
 }
-
