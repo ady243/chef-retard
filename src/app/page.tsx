@@ -1,21 +1,23 @@
-export default function Home() {
+import React from 'react';
+import CardBuilder from '../components/CardBuilder';
+import BienvenueComponent  from "../components/BienvenueComponent"
+import { restaurants } from "../data";
+
+const Home = () => {
   return (
     <>
-      <div className="min-h-screen bg-gray-900 flex flex-col items-center justify-center">
-        <h1 className="text-white -mt-12">Commandez rapidement avec les références fast-food</h1>
-        <h1 className="text-5xl text-white font-bold mb-8 animate-pulse mt-4">
-          Bientôt
-        </h1>
-        <p className="text-white text-xl mb-8 mt-24">
-          &ldquo;Nous mettons tout en œuvre pour vous offrir une expérience exceptionnelle. Restez connectés !&rdquo;
-        </p>
 
-        <div>
-          <p className="text-white"> 
-            &copy; 2023 Ady masivi. Tous droits réservés.
-          </p>
+    <BienvenueComponent data={restaurants}/>
+        
+    <div className='mt-12 ml-4 flex flex-wrap -m-0 mt-24'>
+      {restaurants.slice(0, 9).map((restaurantData) => (
+        <div key={restaurantData.id} className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 mr-0">
+          <CardBuilder {...restaurantData} />
         </div>
-      </div>
-    </>
+      ))}
+    </div></>
+
   );
-}
+};
+
+export default Home;

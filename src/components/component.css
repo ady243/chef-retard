@@ -1,0 +1,243 @@
+.type-product-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2; 
+}
+
+
+.filter-restau-container {
+    position: relative; 
+    z-index: 1; 
+}
+
+
+.type_product {
+    position: relative;
+    z-index: 1; 
+}
+
+
+/* .type_product {
+    position: relative; 
+    z-index: 1; 
+    background-image: url('https://zupimages.net/up/23/49/ys8g.jpeg');
+    background-size: cover;
+    height: 80vh; 
+    border: 1px solid black;
+    border-radius: 1px 1px 1px 1px;
+    overflow-y: scroll; 
+    top: 20%;
+    left: 0;
+    right: 0;
+} */
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    position: relative;
+  }
+  
+  .input {
+    border-style: none;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    outline: none;
+    border-radius: 50%;
+    transition: .5s ease-in-out;
+    background-color: #7e4fd4;
+    box-shadow: 0px 0px 3px #f3f3f3;
+    padding-right: 40px;
+    color: #fff;
+  }
+  
+  .input::placeholder,
+  .input {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+  }
+  
+  .input::placeholder {
+    color: #8f8f8f;
+  }
+  
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    outline: none;
+    border-style: none;
+    border-radius: 50%;
+    pointer-events: painted;
+    background-color: transparent;
+    transition: .2s linear;
+  }
+  
+  .icon:focus ~ .input,
+  .input:focus {
+    box-shadow: none;
+    width: 250px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom: 3px solid #7e4fd4;
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+  }
+  
+  .ul_titre{
+    position: relative; 
+    z-index: 1; 
+    background-color: rgb(244, 227, 227);
+    background-size: cover;
+    height: 8vh; 
+    border-radius: 1px 1px 1px 1px;
+    margin-top: -20px;
+    color: black;
+    overflow-wrap: auto;
+    top: 2%;
+    left: 0;
+    right: 0;
+  }
+
+  .li_title {
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    animation: slide 2s infinite;
+    position: relative;
+    animation: slide 2s infinite;
+    margin: 100px 0;
+}
+
+.li_title:nth-child(1) {
+    background-color: rgb(199, 138, 252);
+    animation: slide1 2s infinite   ;
+}
+
+.li_title:nth-child(2) {
+    background-color: rgb(224, 227, 227);
+    animation: slide2 2s infinite;
+}
+
+.li_title:nth-child(3) {
+    background-color: rgb(204, 227, 227);
+    animation: slide2 2s infinite;
+}
+.li_title:nth-child(4) {
+    background-color: rgb(128, 237, 237);
+    animation: slide1 2s infinite;
+}
+.li_title:nth-child(5) {
+    background-color: rgb(209, 227, 204);
+    animation: slide2 5s infinite;
+}
+.li_title:nth-child(6) {
+    background-color: rgb(204, 223, 227);
+    animation: slide1 4s infinite;
+}
+  
+.li_title:nth-child(7) {
+    background-color: rgb(213, 204, 227);
+    animation: slide2 3s infinite   ;
+}
+  
+.li_title:nth-child(8) {
+    background-color: rgb(220, 227, 204);
+    animation: slide1 2s infinite   ;
+}
+.li_title:nth-child(9) {
+    background-color: rgb(222, 204, 227);
+    animation: slide1 2s infinite   ;
+}
+  
+.li_title:hover {
+    background-color: rgb(220, 220, 220);
+    animation: slide 2s infinite;
+}
+
+@keyframes slide1 {
+    0% { left: 0; }
+    1% { left: 1px; }
+    100% { left: 0; }
+}
+
+@keyframes slide2 {
+    0% { left: 0; }
+    2% { left: 2px; }
+    100% { left: 0; }
+}
+
+  
+
+
+ .welcome{
+    position: relative; 
+    z-index: 1; 
+    background-color: rgb(244, 227, 227);
+    background-size: cover;
+    height: 80vh; 
+    border-radius: 50px;
+    border-radius: 1px 1px 1px 1px;
+    overflow-y: scroll; 
+    top: 20%;
+    left: 0;
+    right: 0;
+} 
+
+.welcome h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 70px;
+    height: auto;
+  }
+
+@media screen and (max-width: 768px) {
+    .welcome h1{
+        font-size: 30px;
+    }
+
+    .ul_titre{
+        height: 100px;
+    }
+
+    .type_product{
+        height: 50vh;
+    }
+
+    .welcome{
+        height: 80vh;
+        background-color: rgb(244, 227, 227);
+    }
+
+    .input-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        position: relative;
+    }
+
+@keyframes slide1 {
+  
+}
+
+@keyframes slide2 {
+  
+}
+
+}
