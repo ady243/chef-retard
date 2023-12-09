@@ -19,19 +19,7 @@
 }
 
 
-/* .type_product {
-    position: relative; 
-    z-index: 1; 
-    background-image: url('https://zupimages.net/up/23/49/ys8g.jpeg');
-    background-size: cover;
-    height: 80vh; 
-    border: 1px solid black;
-    border-radius: 1px 1px 1px 1px;
-    overflow-y: scroll; 
-    top: 20%;
-    left: 0;
-    right: 0;
-} */
+
 
 .input-wrapper {
     display: flex;
@@ -222,6 +210,8 @@
     .welcome{
         height: 80vh;
         background-color: rgb(244, 227, 227);
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .input-wrapper{
@@ -230,6 +220,11 @@
         justify-content: center;
         gap: 15px;
         position: relative;
+    }
+
+    .center{
+       margin-right: auto;
+         margin-left: auto;
     }
 
 @keyframes slide1 {

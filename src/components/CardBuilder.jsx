@@ -1,9 +1,10 @@
 import React from 'react';
 import Link from 'next/link';
+import './component.css'
 
 const CardBuilder = ({ imageUrl, title, price, link, restaurantName, livreur }) => {
     return (
-      <div className="relative m-10 flex w-full sm:max-w-xs md:max-w-md lg:max-w-lg xl:max-w-xl flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md sm:mr-12">
+      <div className="relative m-10 flex w-full sm:max-w-xs md:max-w-md lg:max-w-lg xl:max-w-xl flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md sm:mr-12 center">
     
         <img className="object-cover h-[200px] w-full" src={imageUrl} alt={title} />
    
