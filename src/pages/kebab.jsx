@@ -1,5 +1,3 @@
-// components/KebabRecipe.js
-
 import React from 'react';
 
 const recipeStyle = {
@@ -39,7 +37,7 @@ const Kebab = () => {
         <li>Sel et poivre, selon le goût</li>
         <li>Pain pita ou tortillas</li>
         <li>Légumes frais (tomates, concombres, laitue, oignons) pour la garniture</li>
-        <li>Sauce au choix (tzatziki, sauce à l'ail, sauce piquante)</li>
+        <li>Sauce au choix (tzatziki, sauce à l&apos;ail, sauce piquante)</li>
       </ul>
 
       <h2>Instructions :</h2>
@@ -47,7 +45,7 @@ const Kebab = () => {
         <li>
           <strong>Marinade de la viande :</strong>
           <ul>
-            <li>Mélanger le yaourt, le jus de citron, l'ail émincé, le cumin, la coriandre, le paprika, le sel et le poivre dans un bol.</li>
+            <li>Mélanger le yaourt, le jus de citron, l&apos;ail émincé, le cumin, la coriandre, le paprika, le sel et le poivre dans un bol.</li>
             <li>Ajouter les morceaux de viande dans la marinade et bien mélanger. Laisser mariner pendant au moins 1 heure, idéalement toute une nuit au réfrigérateur.</li>
           </ul>
         </li>

@@ -1,10 +1,10 @@
 import React from 'react';
+import Link from 'next/link';
 
 const style = {
   recetteContainer: {
     margin: '20px',
     padding: '20px',
-
   },
   recetteList: {
     listStyle: 'none',
@@ -29,14 +29,52 @@ const Recette = () => {
   return (
     <div style={style.recetteContainer}>
       <ul style={style.recetteList}>
-        <li style={style.recetteListItem}><a href="/sushi" style={style.recetteLink}>Sushi</a></li>
-        <li style={style.recetteListItem}><a href="/big" style={style.recetteLink}>BIG TASTY™ - 2 VIANDES</a></li>
-        <li style={style.recetteListItem}><a href="/frites" style={style.recetteLink}>Frites</a></li>
-        <li style={style.recetteListItem}><a href="/kebab" style={style.recetteLink}>Kebab</a></li>
-        <li style={style.recetteListItem}><a href="/sandichSteack" style={style.recetteLink}>Sandwich Steak Haché</a></li>
-        <li style={style.recetteListItem}><a href="/sandwichPoulet" style={style.recetteLink}>Sandwich au poulet</a></li>
-        <li style={style.recetteListItem}><a href="/double" style={style.recetteLink}>Double WHOPPER® Cheese</a></li>
-        <li style={style.recetteListItem}><a href="/salade" style={style.recetteLink}>Salade César au poulet pané</a></li>
+        <li style={style.recetteListItem}>
+          <Link href="/sushi">
+            <p style={style.recetteLink}>Sushi</p>
+          </Link>
+        </li>
+        <li style={style.recetteListItem}>
+          <Link href="/big">
+            <p style={style.recetteLink}>BIG TASTY™ - 2 VIANDES</p>
+          </Link>
+        </li>
+        <li style={style.recetteListItem}>
+          <Link href="/sandwichSteack">
+            <p style={style.recetteLink}>Sandwich Steak</p>
+          </Link>
+        </li>
+
+        <li style={style.recetteListItem}>
+          <Link href="/sandwichPoulet">
+            <p style={style.recetteLink}>Sandwich Poulet</p>
+          </Link>
+        </li>
+
+        <li style={style.recetteListItem}>
+          <Link href="/double">
+            <p style={style.recetteLink}>Double WHOPPER® Cheese</p>
+          </Link>
+          </li>
+
+          <li style={style.recetteListItem}>
+          <Link href="/frites">
+            <p style={style.recetteLink}>Frites burger king</p>
+          </Link>
+          </li>
+
+          <li style={style.recetteListItem}>
+          <Link href="/kebab">
+            <p style={style.recetteLink}>Kebabe</p>
+          </Link>
+          </li>
+
+          <li style={style.recetteListItem}>
+          <Link href="/salade">
+            <p style={style.recetteLink}>Salade César au poulet pané</p>
+          </Link>
+          </li>
+
       </ul>
     </div>
   );

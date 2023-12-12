@@ -1,5 +1,3 @@
-// components/Salade.js
-
 import React from 'react';
 
 const recipeStyle = {
@@ -32,7 +30,7 @@ const Frites = () => {
       <h2>Recette des Frites à la Burger King :</h2>
       <ul>
         <li>Pommes de terre, pelées et coupées en bâtonnets</li>
-        <li>Huile de cuisson (comme l'huile de maïs ou l'huile d'arachide)</li>
+        <li>Huile de cuisson (comme l&apos;huile de maïs ou l&apos;huile d&apos;arachide)</li>
         <li>Sel</li>
       </ul>
 
@@ -49,8 +47,8 @@ const Frites = () => {
           <ul>
             <li>Préchauffer le four à 220°C.</li>
             <li>Placer les bâtonnets de pommes de terre sur une plaque de cuisson recouverte de papier sulfurisé.</li>
-            <li>Arroser les bâtonnets d'huile de cuisson et les saupoudrer de sel selon tes préférences.</li>
-            <li>Placer la plaque au four et faire cuire pendant environ 25-30 minutes, en les retournant à mi-cuisson, jusqu'à ce qu'elles soient dorées et croustillantes.</li>
+            <li>Arroser les bâtonnets d&apos;huile de cuisson et les saupoudrer de sel selon tes préférences.</li>
+            <li>Placer la plaque au four et faire cuire pendant environ 25-30 minutes, en les retournant à mi-cuisson, jusqu&apos;à ce qu&apos;elles soient dorées et croustillantes.</li>
           </ul>
         </li>
         <li>

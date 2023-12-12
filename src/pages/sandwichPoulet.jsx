@@ -1,5 +1,3 @@
-// components/ChickenSandwichRecipe.js
-
 import React from 'react';
 
 const recipeStyle = {
@@ -24,7 +22,7 @@ const recipeStyle = {
   },
 };
 
-const sandwichPoulet = () => {
+const SandwichPoulet = () => {
   return (
     <div style={recipeStyle}>
       <h2>Ingrédients :</h2>
@@ -38,7 +36,7 @@ const sandwichPoulet = () => {
         <li>Mayonnaise</li>
         <li>Moutarde</li>
         <li>Tranches de cornichons (facultatif)</li>
-        <li>Tranches d'oignons rouges (facultatif)</li>
+        <li>Tranches d&apos;oignons rouges (facultatif)</li>
         <li>Sel et poivre, selon le goût</li>
       </ul>
 
@@ -53,14 +51,14 @@ const sandwichPoulet = () => {
         <li>
           <strong>Cuisson du poulet :</strong>
           <ul>
-            <li>Faire cuire les filets de poulet mariner dans une poêle chaude jusqu'à ce qu'ils soient bien cuits et dorés des deux côtés.</li>
+            <li>Faire cuire les filets de poulet marinés dans une poêle chaude jusqu&apos;à ce qu&apos;ils soient bien cuits et dorés des deux côtés.</li>
           </ul>
         </li>
         <li>
           <strong>Préparation du sandwich :</strong>
           <ul>
             <li>Griller légèrement le pain à sandwich.</li>
-            <li>Étaler de la mayonnaise sur une tranche de pain et de la moutarde sur l'autre.</li>
+            <li>Étaler de la mayonnaise sur une tranche de pain et de la moutarde sur l&apos;autre.</li>
             <li>Disposer une feuille de laitue sur la tranche de pain avec la mayonnaise.</li>
             <li>Ajouter le filet de poulet cuit, des tranches de tomates, du fromage (si désiré), des cornichons et des oignons rouges.</li>
             <li>Assaisonner avec du sel et du poivre selon le goût.</li>
@@ -78,4 +76,4 @@ const sandwichPoulet = () => {
   );
 };
 
-export default sandwichPoulet;
+export default SandwichPoulet;

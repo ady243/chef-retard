@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 
 const recipeStyle = {
@@ -50,7 +48,7 @@ const Salade = () => {
           <ul>
             <li>Assaisonner les poitrines de poulet avec du sel et du poivre.</li>
             <li>Tremper chaque morceau de poulet dans la farine, puis dans les œufs battus, et enfin dans la chapelure.</li>
-            <li>Chauffer l'huile dans une poêle et faire frire les morceaux de poulet jusqu'à ce qu'ils soient bien dorés et cuits à l'intérieur. Égoutter sur du papier absorbant.</li>
+            <li>Chauffer l&apos;huile dans une poêle et faire frire les morceaux de poulet jusqu&apos;à ce qu&apos;ils soient bien dorés et cuits à l&apos;intérieur. Égoutter sur du papier absorbant.</li>
             <li>Couper les morceaux de poulet pané en tranches.</li>
           </ul>
         </li>
@@ -71,7 +69,7 @@ const Salade = () => {
           <strong>Assaisonnement et service :</strong>
           <ul>
             <li>Arroser la salade de vinaigrette juste avant de servir.</li>
-            <li>Servir la salade au poulet pané garnie de votre choix d'assaisonnements.</li>
+            <li>Servir la salade au poulet pané garnie de votre choix d&apos;assaisonnements.</li>
           </ul>
         </li>
       </ol>
