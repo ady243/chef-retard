@@ -2,6 +2,7 @@ import React from 'react';
 import { useRouter } from 'next/router';
 import { restaurants } from '../../data';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const DetailsPage = () => {
   const router = useRouter();
@@ -63,7 +64,7 @@ const DetailsPage = () => {
     <div style={style.container}>
       <h1 style={style.title}>{restaurantData.title}</h1>
       <div style={style.details}>
-        <img style={style.image} src={restaurantData.imageUrl} alt={restaurantData.title} />
+        <Image style={style.image} src={restaurantData.imageUrl} alt={restaurantData.title} width={200} height={200}/>
         <p style={style.text}>Prix: {restaurantData.price}</p>
         <p style={style.text}>Restaurant: {restaurantData.restaurantName}</p>
         <p style={style.text}>Service de livraison: {restaurantData.livreur}</p>
