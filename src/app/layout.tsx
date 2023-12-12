@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Chef retard',
-  description: 'Je suis en retard, je souhaite obtenir une liste de références de restaurants pour passer une commande de repas.',
+  description: 'Découvrez une expérience culinaire sans pareil avec chefretard.tech, le site de référencement de restaurants conçu pour les gourmets pressés en quête de délices à portée de clic.',
 }
 
 export default function RootLayout({

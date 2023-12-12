@@ -9,7 +9,7 @@ export const restaurants = [
       link: 'https://www.ubereats.com/fr/store/sushi-go/n7XiHsZ7QX215BJyy-KRow/3d2b4c70-10ba-558e-9038-175aec851625/0379a62a-1156-4ddb-a09a-7e1dc45d5dfb/333b2346-c59e-5a1a-9ccc-4a6e72f796ac',
     },
     {
-      id: 1,
+      id: 2,
       imageUrl: 'https://zupimages.net/up/23/49/hd0b.jpeg',
       title: 'BIG TASTY™ - 2 VIANDES',
       price: '16,70 €',
