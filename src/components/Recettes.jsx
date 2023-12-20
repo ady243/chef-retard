@@ -65,7 +65,7 @@ const Recette = () => {
 
           <li style={style.recetteListItem}>
           <Link href="/kebab">
-            <p style={style.recetteLink}>Kebabe</p>
+            <p style={style.recetteLink}>Kebab</p>
           </Link>
           </li>
 
